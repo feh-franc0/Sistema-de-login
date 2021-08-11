@@ -1,0 +1,185 @@
+*{ 
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#menu{
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    top: -20px;
+
+}
+
+#menu ul{
+    margin: 0;
+    background-color: rgb(255, 172, 77);
+    list-style: none;
+    padding-right: 20px;
+}
+
+.link{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu ul li{
+    margin: 5px;
+    padding:5px;
+    display: inline;
+}
+
+#menu ul li a{
+    float: right; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23;
+    margin: 10px;
+    padding: 4.5px 15px;
+    display: inline;
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+    background-color: white;
+    color: rgb(255, 172, 77);
+}
+
+section{
+    padding: 80px;
+    background-image: url('../img/bannerprincipal.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 220px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+#textosection{
+    font-size: 23px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #48C5CE ;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* background-image: url('../img/arrow.jpeg');
+    background-repeat: no-repeat; */
+
+    /* background-position-x: calc(100% - 10px);
+    background-position-y: center; */
+}
+
+main{
+    margin: 50px;
+}
+
+.planodefundo{
+    background-color: rgb(228, 228, 228);
+    border-radius: 40px;
+}
+
+.propclient{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.blockequipe{
+    text-align: center;
+    /* display:inline-block; */
+    padding: 1px;
+    margin: 1px;
+} 
+
+.bgfundodotexto{
+    background-color: rgba(95, 95, 95,0.3);
+    border-radius: 50px;
+}
+
+.texto{
+    font-size: 40px;
+    text-align: center; 
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgb(255, 172, 77);
+}
+
+#bloco1-escrita{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+.blockequipe{
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.fotoequipemedica{
+    display:inline-block; 
+    border-radius: 100px;
+}
+
+.linhahr{
+    display: inline-block; 
+    width: 400px; 
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: rgb(150, 150, 150);
+    padding: 20px;
+}

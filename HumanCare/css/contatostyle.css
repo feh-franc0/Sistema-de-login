@@ -1,0 +1,179 @@
+*{ 
+   
+    margin: 0px;
+    /* margin-top: 20px;
+    padding: 0px; */
+}
+
+body{
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#menu{
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    top: -20px;
+
+}
+
+#menu ul{
+    margin: 0;
+    background-color: rgb(255, 172, 77);
+    list-style: none;
+    padding-right: 20px;
+}
+
+.link{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu ul li{
+    margin: 5px;
+    padding:5px;
+    display: inline;
+}
+
+#menu ul li a{
+    float: right;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23;
+    margin: 10px;
+    padding: 4.5px 15px;
+    display: inline;
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+    background-color: white;
+    color: rgb(255, 172, 77);
+}
+
+
+
+
+section{
+    background-image: url(./../img/contato4.jpeg); 
+    /*width: 100%;
+    height: 569px;
+    background-repeat: no-repeat; */
+
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+main{
+    margin: 50px;
+}
+
+#foto-principal{
+    text-align:center;
+    padding-top: 417px;
+}
+
+#bg-texto-princial-servico{
+    background-color: rgb(107, 107, 107);
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+#cor-size-texto-principal-contato{
+    margin: 0px;
+    font-size: 88px;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.instagram{
+    list-style-image: url('../img/0instagram.png');
+    font-size: 23px;    
+    color: rgb(215, 13, 233);
+    
+
+}
+
+.facebook{
+    list-style-image: url('../img/0facebook.png');
+    font-size: 23px;
+    color: rgb(0, 68, 255);
+
+}
+
+
+#container-geral{
+    display: inline-block;
+    background-color: rgb(225, 225, 225);
+    padding: 0px;
+    /* margin: 30px; */
+    border-radius: 50px;
+    width: 92%;
+    /* height: 232px; */
+}
+
+#titulo{
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+    background-color: rgb(199, 199, 199);
+    color: rgb(255, 166, 0);
+    border-radius: 50px;
+}
+
+#img-da-logo{
+    float: left;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+
+#container-textos{
+    display: inline-block;
+    width: 75%;
+}
+
+
+
+#centralizar-container{
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(150, 150, 150);
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+ 
+    body{
+        background-color: black;
+    }
+
+}
